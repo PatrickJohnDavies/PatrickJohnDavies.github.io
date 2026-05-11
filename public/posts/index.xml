@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Patrick’s Project Lab</title><link>http://localhost:1313/posts/</link><description>Recent content in Posts on Patrick’s Project Lab</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 06 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Embedded Notes: Keeping Firmware and PC Software Together</title><link>http://localhost:1313/posts/embedded-notes/</link><pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate><guid>http://localhost:1313/posts/embedded-notes/</guid><description>&lt;h1 id="embedded-notes-keeping-firmware-and-pc-software-together"&gt;Embedded Notes: Keeping Firmware and PC Software Together&lt;/h1&gt;
+&lt;p&gt;A common problem in hardware/software projects is deciding where firmware files should live relative to the PC application.&lt;/p&gt;
+&lt;p&gt;During development, it is convenient to keep everything close together:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Firmware source code&lt;/li&gt;
+&lt;li&gt;Compiled firmware binary&lt;/li&gt;
+&lt;li&gt;PC application source code&lt;/li&gt;
+&lt;li&gt;Test scripts&lt;/li&gt;
+&lt;li&gt;Documentation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;But for release, the user should only receive the files needed to run the application.&lt;/p&gt;
+&lt;h2 id="a-simple-approach"&gt;A simple approach&lt;/h2&gt;
+&lt;p&gt;Keep the firmware source in the development repo, but copy the compiled release firmware into an application assets folder during the build process.&lt;/p&gt;</description></item><item><title>First Project Log</title><link>http://localhost:1313/posts/first-project-log/</link><pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate><guid>http://localhost:1313/posts/first-project-log/</guid><description>&lt;h1 id="first-project-log"&gt;First Project Log&lt;/h1&gt;
+&lt;p&gt;This is the first build log on the site.&lt;/p&gt;
+&lt;p&gt;The goal of this project is to create a small hardware/software system and document the process from prototype to finished tool.&lt;/p&gt;
+&lt;h2 id="current-state"&gt;Current state&lt;/h2&gt;
+&lt;p&gt;Right now, the project is in the early setup phase:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Basic repository structure created&lt;/li&gt;
+&lt;li&gt;Hugo site running locally&lt;/li&gt;
+&lt;li&gt;Terminal theme installed&lt;/li&gt;
+&lt;li&gt;First content pages added&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="next-steps"&gt;Next steps&lt;/h2&gt;
+&lt;p&gt;The next step is to add screenshots, diagrams, and notes as the project develops.
+EOF&lt;/p&gt;</description></item></channel></rss>
